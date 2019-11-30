@@ -1,0 +1,14 @@
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Services\bin\Debug\netcoreapp2.1\AddressBook.Core.Services.deps.json
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Services\bin\Debug\netcoreapp2.1\AddressBook.Core.Services.dll
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Services\bin\Debug\netcoreapp2.1\AddressBook.Core.Services.pdb
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Services\bin\Debug\netcoreapp2.1\AddressBook.Core.Common.dll
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Services\bin\Debug\netcoreapp2.1\AddressBook.Models.dll
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Services\bin\Debug\netcoreapp2.1\AddressBook.Core.Common.pdb
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Services\bin\Debug\netcoreapp2.1\AddressBook.Models.pdb
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Services\obj\Debug\netcoreapp2.1\AddressBook.Core.Services.csprojAssemblyReference.cache
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Services\obj\Debug\netcoreapp2.1\AddressBook.Core.Services.csproj.CoreCompileInputs.cache
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Services\obj\Debug\netcoreapp2.1\AddressBook.Core.Services.AssemblyInfoInputs.cache
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Services\obj\Debug\netcoreapp2.1\AddressBook.Core.Services.AssemblyInfo.cs
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Services\obj\Debug\netcoreapp2.1\AddressBook.Core.Services.csproj.CopyComplete
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Services\obj\Debug\netcoreapp2.1\AddressBook.Core.Services.dll
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Services\obj\Debug\netcoreapp2.1\AddressBook.Core.Services.pdb

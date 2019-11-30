@@ -1,0 +1,66 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "0af6ca8f98df6be469b58185b2584200edef448b"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "AddressBook.Core.Services/1.0.0": {
+        "dependencies": {
+          "AddressBook.Core.Common": "1.0.0",
+          "AddressBook.Models": "1.0.0",
+          "Autofac": "4.9.4"
+        },
+        "runtime": {
+          "AddressBook.Core.Services.dll": {}
+        }
+      },
+      "Autofac/4.9.4": {
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "assemblyVersion": "4.9.4.0",
+            "fileVersion": "4.9.4.0"
+          }
+        }
+      },
+      "AddressBook.Core.Common/1.0.0": {
+        "dependencies": {
+          "AddressBook.Models": "1.0.0"
+        },
+        "runtime": {
+          "AddressBook.Core.Common.dll": {}
+        }
+      },
+      "AddressBook.Models/1.0.0": {
+        "runtime": {
+          "AddressBook.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AddressBook.Core.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/4.9.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dYiDG4yoV7GDCoOc66d1sqMmg2gwDyomHKgATuMfhFzYxVpWEltToHVHXI3I9vOEvIXE55S4OZPY0ldiZmZtpA==",
+      "path": "autofac/4.9.4",
+      "hashPath": "autofac.4.9.4.nupkg.sha512"
+    },
+    "AddressBook.Core.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AddressBook.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

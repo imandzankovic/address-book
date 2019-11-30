@@ -1,0 +1,9 @@
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Models\bin\Debug\netcoreapp2.1\AddressBook.Models.deps.json
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Models\bin\Debug\netcoreapp2.1\AddressBook.Models.dll
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Models\bin\Debug\netcoreapp2.1\AddressBook.Models.pdb
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Models\obj\Debug\netcoreapp2.1\AddressBook.Models.csproj.CoreCompileInputs.cache
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Models\obj\Debug\netcoreapp2.1\AddressBook.Models.AssemblyInfoInputs.cache
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Models\obj\Debug\netcoreapp2.1\AddressBook.Models.AssemblyInfo.cs
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Models\obj\Debug\netcoreapp2.1\AddressBook.Models.dll
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Models\obj\Debug\netcoreapp2.1\AddressBook.Models.pdb
+C:\Users\Iman\Desktop\AddressBook\AddressBook.Models\obj\Debug\netcoreapp2.1\AddressBook.Models.csprojAssemblyReference.cache
