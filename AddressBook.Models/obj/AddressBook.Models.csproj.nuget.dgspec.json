@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iman\\Desktop\\AddressBook\\AddressBook.Models\\AddressBook.Models.csproj": {}
+    "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Models\\AddressBook.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iman\\Desktop\\AddressBook\\AddressBook.Models\\AddressBook.Models.csproj": {
+    "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Models\\AddressBook.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\AddressBook\\AddressBook.Models\\AddressBook.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Models\\AddressBook.Models.csproj",
         "projectName": "AddressBook.Models",
-        "projectPath": "C:\\Users\\Iman\\Desktop\\AddressBook\\AddressBook.Models\\AddressBook.Models.csproj",
+        "projectPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Models\\AddressBook.Models.csproj",
         "packagesPath": "C:\\Users\\Iman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iman\\Desktop\\AddressBook\\AddressBook.Models\\obj\\",
+        "outputPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

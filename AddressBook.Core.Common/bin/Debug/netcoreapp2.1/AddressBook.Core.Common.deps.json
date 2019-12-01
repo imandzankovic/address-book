@@ -1,17 +1,27 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "signature": "b64a9b10d797b104692feb0ebb4f880c422a9e54"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "AddressBook.Core.Common/1.0.0": {
         "dependencies": {
+          "AddressBook.Entities": "1.0.0",
           "AddressBook.Models": "1.0.0"
         },
         "runtime": {
           "AddressBook.Core.Common.dll": {}
+        }
+      },
+      "EntityFramework/6.3.0": {},
+      "AddressBook.Entities/1.0.0": {
+        "dependencies": {
+          "EntityFramework": "6.3.0"
+        },
+        "runtime": {
+          "AddressBook.Entities.dll": {}
         }
       },
       "AddressBook.Models/1.0.0": {
@@ -23,6 +33,18 @@
   },
   "libraries": {
     "AddressBook.Core.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework/6.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mEvhoXscTyLFMcnbLzKlbWdx6N8fCY2IMe4drjUTMFqOqI4KThnTPXr1m50oXDJAn5PvCy2e90IcwN/OxkJUjg==",
+      "path": "entityframework/6.3.0",
+      "hashPath": "entityframework.6.3.0.nupkg.sha512"
+    },
+    "AddressBook.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

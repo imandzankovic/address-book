@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AddressBook.Core.Services;
+using AddressBook.Models.Request.Contact;
 using AddressBook.Models.Response.Contact;
 using AddressBook.Models.Search.Contact;
 using Microsoft.AspNetCore.Mvc;
@@ -13,46 +14,58 @@ namespace AddressBook.API.Controllers
     [ApiController]
     public class ContactController : ControllerBase
     {
-        private IContactService contactService;
+        private IContactService _contactService;
+   
 
         public ContactController(IContactService contactService)
         {
-            this.contactService = contactService;
+            this._contactService = contactService;
+           
         }
-        
+
+      /*  [HttpGet]
+        public async Task<ActionResult<IEnumerable<ContactResponseModel>>> SearchContacts  ([FromQuery]ContactSearchModel model)
+        {
+            var contacts = await _contactService.SearchContactsAsync(model);
+
+            return Ok(contacts);
+        }*/
+
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ContactResponseModel>>> Get([FromQuery]ContactSearchModel model)
+        public async Task<ActionResult<IEnumerable<ContactResponseModel>>> GetAll()
         {
-            var contacts = await contactService.GetContactsAsync(model);
+            var contacts = await _contactService.GetContactsAsync();
 
             return Ok(contacts);
         }
 
-        
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public async Task<ActionResult<ContactResponseModel>> GetById(int id)
         {
-            var contacts = contactService.GetContactById(id);
+            var contact = await _contactService.GetContactById(id);
 
-            return Ok(contacts);
+            return Ok(contact);
         }
 
-        
+
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<ActionResult<ContactResponseModel>> Post([FromBody] ContactRequestModel contact)
         {
+           return await _contactService.AddContactAsync(contact);
         }
 
-        
+
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<ActionResult<ContactResponseModel>> Update(int id, [FromBody]  ContactRequestModel contact)
         {
+            return await _contactService.UpdateContactAsync(id,contact);
         }
 
         
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<ActionResult<ContactResponseModel>> Delete(int id)
         {
+            return await _contactService.DeactivateContactAsync(id);
         }
     }
 }

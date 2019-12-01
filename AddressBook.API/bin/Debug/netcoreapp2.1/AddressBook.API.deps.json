@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "0b301073a67f467187b18537335cbae384cd7a20"
+    "signature": "9ad8978dbba07ec0a75edb48d78c115f1b9721d7"
   },
   "compilationOptions": {
     "defines": [
@@ -24,9 +24,12 @@
     ".NETCoreApp,Version=v2.1": {
       "AddressBook.API/1.0.0": {
         "dependencies": {
+          "AddressBook.Core.Common": "1.0.0",
           "AddressBook.Core.Services": "1.0.0",
+          "AddressBook.Models": "1.0.0",
           "Autofac": "4.9.4",
           "Autofac.Extensions.DependencyInjection": "5.0.1",
+          "EntityFramework": "6.3.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
@@ -65,6 +68,7 @@
           "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll": {}
         }
       },
+      "EntityFramework/6.3.0": {},
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
       "Microsoft.NETCore.App/2.1.0": {
         "dependencies": {
@@ -304,6 +308,7 @@
       },
       "AddressBook.Core.Common/1.0.0": {
         "dependencies": {
+          "AddressBook.Entities": "1.0.0",
           "AddressBook.Models": "1.0.0"
         },
         "runtime": {
@@ -316,8 +321,11 @@
       "AddressBook.Core.Services/1.0.0": {
         "dependencies": {
           "AddressBook.Core.Common": "1.0.0",
+          "AddressBook.Entities": "1.0.0",
           "AddressBook.Models": "1.0.0",
-          "Autofac": "4.9.4"
+          "AddressBook.Repository": "1.0.0",
+          "Autofac": "4.9.4",
+          "EntityFramework": "6.3.0"
         },
         "runtime": {
           "AddressBook.Core.Services.dll": {}
@@ -326,12 +334,35 @@
           "AddressBook.Core.Services.dll": {}
         }
       },
+      "AddressBook.Entities/1.0.0": {
+        "dependencies": {
+          "EntityFramework": "6.3.0"
+        },
+        "runtime": {
+          "AddressBook.Entities.dll": {}
+        },
+        "compile": {
+          "AddressBook.Entities.dll": {}
+        }
+      },
       "AddressBook.Models/1.0.0": {
         "runtime": {
           "AddressBook.Models.dll": {}
         },
         "compile": {
           "AddressBook.Models.dll": {}
+        }
+      },
+      "AddressBook.Repository/1.0.0": {
+        "dependencies": {
+          "AddressBook.Core.Common": "1.0.0",
+          "AddressBook.Entities": "1.0.0"
+        },
+        "runtime": {
+          "AddressBook.Repository.dll": {}
+        },
+        "compile": {
+          "AddressBook.Repository.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3296,6 +3327,13 @@
       "path": "autofac.extensions.dependencyinjection/5.0.1",
       "hashPath": "autofac.extensions.dependencyinjection.5.0.1.nupkg.sha512"
     },
+    "EntityFramework/6.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mEvhoXscTyLFMcnbLzKlbWdx6N8fCY2IMe4drjUTMFqOqI4KThnTPXr1m50oXDJAn5PvCy2e90IcwN/OxkJUjg==",
+      "path": "entityframework/6.3.0",
+      "hashPath": "entityframework.6.3.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",
       "serviceable": true,
@@ -3390,7 +3428,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AddressBook.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "AddressBook.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AddressBook.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

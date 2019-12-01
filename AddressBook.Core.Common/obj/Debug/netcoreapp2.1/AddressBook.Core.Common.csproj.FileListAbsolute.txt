@@ -10,3 +10,17 @@ C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Common\obj\Debug\netcoreapp2.
 C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Common\obj\Debug\netcoreapp2.1\AddressBook.Core.Common.csproj.CopyComplete
 C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Common\obj\Debug\netcoreapp2.1\AddressBook.Core.Common.dll
 C:\Users\Iman\Desktop\AddressBook\AddressBook.Core.Common\obj\Debug\netcoreapp2.1\AddressBook.Core.Common.pdb
+C:\Users\Iman\Desktop\address-book\AddressBook.Core.Common\bin\Debug\netcoreapp2.1\AddressBook.Core.Common.deps.json
+C:\Users\Iman\Desktop\address-book\AddressBook.Core.Common\bin\Debug\netcoreapp2.1\AddressBook.Core.Common.dll
+C:\Users\Iman\Desktop\address-book\AddressBook.Core.Common\bin\Debug\netcoreapp2.1\AddressBook.Core.Common.pdb
+C:\Users\Iman\Desktop\address-book\AddressBook.Core.Common\bin\Debug\netcoreapp2.1\AddressBook.Models.dll
+C:\Users\Iman\Desktop\address-book\AddressBook.Core.Common\bin\Debug\netcoreapp2.1\AddressBook.Models.pdb
+C:\Users\Iman\Desktop\address-book\AddressBook.Core.Common\obj\Debug\netcoreapp2.1\AddressBook.Core.Common.csprojAssemblyReference.cache
+C:\Users\Iman\Desktop\address-book\AddressBook.Core.Common\obj\Debug\netcoreapp2.1\AddressBook.Core.Common.csproj.CoreCompileInputs.cache
+C:\Users\Iman\Desktop\address-book\AddressBook.Core.Common\obj\Debug\netcoreapp2.1\AddressBook.Core.Common.AssemblyInfoInputs.cache
+C:\Users\Iman\Desktop\address-book\AddressBook.Core.Common\obj\Debug\netcoreapp2.1\AddressBook.Core.Common.AssemblyInfo.cs
+C:\Users\Iman\Desktop\address-book\AddressBook.Core.Common\obj\Debug\netcoreapp2.1\AddressBook.Core.Common.csproj.CopyComplete
+C:\Users\Iman\Desktop\address-book\AddressBook.Core.Common\obj\Debug\netcoreapp2.1\AddressBook.Core.Common.dll
+C:\Users\Iman\Desktop\address-book\AddressBook.Core.Common\obj\Debug\netcoreapp2.1\AddressBook.Core.Common.pdb
+C:\Users\Iman\Desktop\address-book\AddressBook.Core.Common\bin\Debug\netcoreapp2.1\AddressBook.Entities.dll
+C:\Users\Iman\Desktop\address-book\AddressBook.Core.Common\bin\Debug\netcoreapp2.1\AddressBook.Entities.pdb

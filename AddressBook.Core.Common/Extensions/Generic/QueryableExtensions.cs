@@ -27,7 +27,6 @@ namespace AddressBook.Core.Common.Extensions.Generic
                 list = source
                     .Skip(pageSize * (pageNumber - 1))
                     .Take(pageSize)
-                    //.AsNoTracking()
                     .ToList();
             }
 
@@ -35,5 +34,7 @@ namespace AddressBook.Core.Common.Extensions.Generic
 
             return page;
         }
+
+
     }
 }

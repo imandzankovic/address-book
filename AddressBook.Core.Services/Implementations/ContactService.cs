@@ -9,43 +9,55 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AddressBook.Entities;
+using AddressBook.Repository;
+using AddressBook.Repository.Context;
+using AddressBook.Core.Common.Helpers;
 
 namespace AddressBook.Core.Services.Implementations
 {
-    public class ContactService : BaseService, IContactService
+    public class ContactService : IContactService
     {
-        private List<ContactResponseModel> contacts;
-
-        public ContactService(ILifetimeScope scope) : base(scope)
+   
+        private List<ContactResponseModel> _contacts;
+        private readonly ContactRepository _contactRepository;
+        public ContactService(ContactRepository contactRepository) 
         {
-            contacts = GetDummyContacts();
+            _contactRepository = contactRepository;
+           
         }
 
-        public async Task<ContactResponseModel> AddContactAsync(ContactRequestModel model)
+        public async Task<ContactResponseModel> AddContactAsync(Models.Request.Contact.ContactRequestModel model)
         {
-            throw new NotImplementedException();
+            var newContact = RequestHelper.requestToEntity(model);
+            var createdContact=await _contactRepository.Add(newContact);
+            return ResponseHelper.entityToResponse(createdContact);
         }
 
-        public async Task<ContactResponseModel> UpdateContactAsync(int id, ContactRequestModel model)
+        public async Task<ContactResponseModel> UpdateContactAsync(int id, Models.Request.Contact.ContactRequestModel model)
         {
-            throw new NotImplementedException();
+            var contactToUpdate = RequestHelper.requestToEntity(model,id);
+            var updatedContact = await _contactRepository.Update(id,contactToUpdate);
+            return ResponseHelper.entityToResponse(updatedContact);
         }
 
-        public async Task DeactivateContactAsync(int id)
+        public async Task<ContactResponseModel> DeactivateContactAsync(int id)
         {
-            throw new NotImplementedException();
+            
+            var contactToDelete = await _contactRepository.Delete(id);
+            return ResponseHelper.entityToResponse(contactToDelete);
         }
 
         public async Task<ContactResponseModel> GetContactById(int id)
         {
-            var samplesList = contacts.Where(q => q.Id == id).AsQueryable();
-             
-            return samplesList.FirstOrDefault();
+            var contact = await _contactRepository.Get(id);
+            var responseContact = ResponseHelper.entityToResponse(contact);
+            return responseContact;
         }
 
-        public async Task<PagedResponseModel<ContactResponseModel>> GetContactsAsync(ContactSearchModel model)
+        public async Task<PagedResponseModel<ContactResponseModel>> SearchContactsAsync(ContactSearchModel model)
         {
-            var samplesList = contacts.Where(q =>
+            var samplesList = _contacts.Where(q =>
                 (string.IsNullOrEmpty(model.FirstName) || q.FirstName.Contains(model.FirstName))
                 && (string.IsNullOrEmpty(model.LastName) || q.LastName.Contains(model.LastName))
                 && (string.IsNullOrEmpty(model.Email) || q.Email.Contains(model.Email))
@@ -53,63 +65,20 @@ namespace AddressBook.Core.Services.Implementations
                 && (model.ModifiedTo == null || q.ModifiedDate <= model.ModifiedTo))
                 .AsQueryable();
 
-            var page = samplesList.ToPagedResponseModel(model.PageNumber, model.PageSize);
+            var page =  samplesList.ToPagedResponseModel(model.PageNumber, model.PageSize);
 
             return page;
         }
 
-        private List<ContactResponseModel> GetDummyContacts()
+        public async Task<List<ContactResponseModel>> GetContactsAsync()
         {
-            var list = new List<ContactResponseModel>
+            var contacts = await _contactRepository.GetAll();
+            var responseContactList = new List<ContactResponseModel>();
+            foreach (var contact in contacts)
             {
-                new ContactResponseModel()
-                {
-                    Id = 1001,
-                    Phone = 257897654,
-                    FirstName = "Nera",
-                    LastName = "Zjakic",
-                    Email = "nera@mail.com",
-                    ModifiedDate = new DateTime(2018, 10, 25)
-                },
-                new ContactResponseModel()
-                {
-                    Id = 1002,
-                    Phone = 284321543,
-                    FirstName = "Zlatan",
-                    LastName = "Cilic",
-                    Email = "zlatan@mail.com",
-                    ModifiedDate = new DateTime(2018, 10, 29)
-                },
-                new ContactResponseModel()
-                {
-                    Id = 1003,
-                    Phone = 312345678,
-                    FirstName = "Amra",
-                    LastName = "Mesic",
-                    Email = "amra@mail.com",
-                    ModifiedDate = new DateTime(2018, 11, 2)
-                },
-                new ContactResponseModel()
-                {
-                    Id = 1004,
-                    Phone = 22345677,
-                    FirstName = "Mirza",
-                    LastName = "Dalic",
-                    Email = "mirza@mail.com",
-                    ModifiedDate = new DateTime(2018, 11, 3)
-                },
-                new ContactResponseModel()
-                {
-                    Id = 1005,
-                    Phone = 341234567,
-                    FirstName = "Ivana",
-                    LastName = "Granzov",
-                    Email = "ivana@mail.com",
-                    ModifiedDate = new DateTime(2018, 11, 4)
-                }
-            };
-
-            return list;
+                responseContactList.Add(ResponseHelper.entityToResponse(contact));
+            }
+            return responseContactList;
         }
     }
 }

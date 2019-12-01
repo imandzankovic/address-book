@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AddressBook.Entities\AddressBook.Entities.csproj" />
     <ProjectReference Include="..\AddressBook.Models\AddressBook.Models.csproj" />
   </ItemGroup>
 
