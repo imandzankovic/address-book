@@ -10,3 +10,11 @@ C:\Users\Iman\Desktop\address-book\AddressBook.Entities\obj\Debug\netcoreapp2.1\
 C:\Users\Iman\Desktop\address-book\AddressBook.Entities\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\Iman\Desktop\address-book\AddressBook.Entities\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml
 C:\Users\Iman\Desktop\address-book\AddressBook.Entities\obj\Debug\netcoreapp2.1\AddressBook.Entities.csproj.CopyComplete
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Entities\bin\Debug\netcoreapp2.1\AddressBook.Entities.deps.json
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Entities\bin\Debug\netcoreapp2.1\AddressBook.Entities.dll
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Entities\bin\Debug\netcoreapp2.1\AddressBook.Entities.pdb
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Entities\obj\Debug\netcoreapp2.1\AddressBook.Entities.csprojAssemblyReference.cache
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Entities\obj\Debug\netcoreapp2.1\AddressBook.Entities.AssemblyInfoInputs.cache
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Entities\obj\Debug\netcoreapp2.1\AddressBook.Entities.AssemblyInfo.cs
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Entities\obj\Debug\netcoreapp2.1\AddressBook.Entities.dll
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Entities\obj\Debug\netcoreapp2.1\AddressBook.Entities.pdb

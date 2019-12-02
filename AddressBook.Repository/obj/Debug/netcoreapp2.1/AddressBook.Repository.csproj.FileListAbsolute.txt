@@ -16,3 +16,8 @@ C:\Users\Iman\Desktop\address-book\AddressBook.Repository\bin\Debug\netcoreapp2.
 C:\Users\Iman\Desktop\address-book\AddressBook.Repository\bin\Debug\netcoreapp2.1\AddressBook.Models.dll
 C:\Users\Iman\Desktop\address-book\AddressBook.Repository\bin\Debug\netcoreapp2.1\AddressBook.Core.Common.pdb
 C:\Users\Iman\Desktop\address-book\AddressBook.Repository\bin\Debug\netcoreapp2.1\AddressBook.Models.pdb
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\obj\Debug\netcoreapp2.1\AddressBook.Repository.csprojAssemblyReference.cache
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\obj\Debug\netcoreapp2.1\AddressBook.Repository.AssemblyInfoInputs.cache
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\obj\Debug\netcoreapp2.1\AddressBook.Repository.AssemblyInfo.cs
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\obj\Debug\netcoreapp2.1\AddressBook.Repository.dll
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\obj\Debug\netcoreapp2.1\AddressBook.Repository.pdb

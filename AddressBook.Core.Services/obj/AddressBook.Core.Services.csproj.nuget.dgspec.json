@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Core.Services\\AddressBook.Core.Services.csproj": {}
+    "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Core.Services\\AddressBook.Core.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj": {
+    "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj",
         "projectName": "AddressBook.Core.Common",
-        "projectPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj",
+        "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj",
         "packagesPath": "C:\\Users\\Iman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Core.Common\\obj\\",
+        "outputPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Core.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,20 +21,20 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
-                "projectPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj"
+              "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
+                "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj"
               },
-              "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Models\\AddressBook.Models.csproj": {
-                "projectPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Models\\AddressBook.Models.csproj"
+              "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Models\\AddressBook.Models.csproj": {
+                "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Models\\AddressBook.Models.csproj"
               }
             }
           }
@@ -46,31 +46,34 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
-            }
-          },
+        "netcoreapp3.0": {
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Core.Services\\AddressBook.Core.Services.csproj": {
+    "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Core.Services\\AddressBook.Core.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Core.Services\\AddressBook.Core.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Core.Services\\AddressBook.Core.Services.csproj",
         "projectName": "AddressBook.Core.Services",
-        "projectPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Core.Services\\AddressBook.Core.Services.csproj",
+        "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Core.Services\\AddressBook.Core.Services.csproj",
         "packagesPath": "C:\\Users\\Iman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Core.Services\\obj\\",
+        "outputPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Core.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -80,26 +83,26 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj": {
-                "projectPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj"
+              "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj": {
+                "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj"
               },
-              "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
-                "projectPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj"
+              "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
+                "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj"
               },
-              "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Models\\AddressBook.Models.csproj": {
-                "projectPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Models\\AddressBook.Models.csproj"
+              "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Models\\AddressBook.Models.csproj": {
+                "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Models\\AddressBook.Models.csproj"
               },
-              "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj": {
-                "projectPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj"
+              "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj": {
+                "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj"
               }
             }
           }
@@ -111,39 +114,44 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
+        "netcoreapp3.0": {
           "dependencies": {
             "Autofac": {
               "target": "Package",
               "version": "[4.9.4, )"
             },
-            "EntityFramework": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.3.0, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
+              "version": "[3.0.1, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
+    "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj",
         "projectName": "AddressBook.Entities",
-        "projectPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj",
+        "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj",
         "packagesPath": "C:\\Users\\Iman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Entities\\obj\\",
+        "outputPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -153,14 +161,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "netcoreapp3.0": {
             "projectReferences": {}
           }
         },
@@ -171,35 +179,34 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
-          "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.3.0, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
-            }
-          },
+        "netcoreapp3.0": {
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Models\\AddressBook.Models.csproj": {
+    "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Models\\AddressBook.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Models\\AddressBook.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Models\\AddressBook.Models.csproj",
         "projectName": "AddressBook.Models",
-        "projectPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Models\\AddressBook.Models.csproj",
+        "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Models\\AddressBook.Models.csproj",
         "packagesPath": "C:\\Users\\Iman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Models\\obj\\",
+        "outputPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -209,14 +216,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "netcoreapp3.0": {
             "projectReferences": {}
           }
         },
@@ -227,31 +234,34 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
-            }
-          },
+        "netcoreapp3.0": {
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj": {
+    "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj",
         "projectName": "AddressBook.Repository",
-        "projectPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj",
+        "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj",
         "packagesPath": "C:\\Users\\Iman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Repository\\obj\\",
+        "outputPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -261,20 +271,20 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj": {
-                "projectPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj"
+              "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj": {
+                "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj"
               },
-              "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
-                "projectPath": "C:\\Users\\Iman\\Desktop\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj"
+              "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
+                "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj"
               }
             }
           }
@@ -286,20 +296,29 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
+        "netcoreapp3.0": {
           "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
+              "version": "[3.0.1, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

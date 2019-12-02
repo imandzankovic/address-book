@@ -1,0 +1,15 @@
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\bin\Debug\netcoreapp3.0\AddressBook.Repository.deps.json
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\bin\Debug\netcoreapp3.0\AddressBook.Repository.dll
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\bin\Debug\netcoreapp3.0\AddressBook.Repository.pdb
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\bin\Debug\netcoreapp3.0\AddressBook.Core.Common.dll
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\bin\Debug\netcoreapp3.0\AddressBook.Entities.dll
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\bin\Debug\netcoreapp3.0\AddressBook.Models.dll
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\bin\Debug\netcoreapp3.0\AddressBook.Core.Common.pdb
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\bin\Debug\netcoreapp3.0\AddressBook.Entities.pdb
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\bin\Debug\netcoreapp3.0\AddressBook.Models.pdb
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\obj\Debug\netcoreapp3.0\AddressBook.Repository.csprojAssemblyReference.cache
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\obj\Debug\netcoreapp3.0\AddressBook.Repository.AssemblyInfoInputs.cache
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\obj\Debug\netcoreapp3.0\AddressBook.Repository.AssemblyInfo.cs
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\obj\Debug\netcoreapp3.0\AddressBook.Repository.csproj.CopyComplete
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\obj\Debug\netcoreapp3.0\AddressBook.Repository.dll
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.Repository\obj\Debug\netcoreapp3.0\AddressBook.Repository.pdb
