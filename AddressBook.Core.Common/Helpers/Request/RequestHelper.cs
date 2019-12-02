@@ -1,26 +1,24 @@
 ﻿using AddressBook.Entities;
 using AddressBook.Models.Request.Contact;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace AddressBook.Core.Common.Helpers
 {
     public class RequestHelper
     {
-        public static Contact requestToEntity(ContactRequestModel contactRequestModel, int? id=null)
+        public static Contact requestToEntity(ContactRequestModel contactRequestModel, int? id = null)
         {
-             
+
             Contact contact = new Contact();
 
             contact.Id = id.HasValue ? contact.Id : 0;
             contact.FirstName = contactRequestModel.FirstName;
             contact.LastName = contactRequestModel.LastName;
-            contact.Phone = contactRequestModel.Phone; 
-            contact.Email=contactRequestModel.Email;
+            contact.Phone = contactRequestModel.Phone;
+            contact.Email = contactRequestModel.Email;
 
             return contact;
-            
+
 
         }
 

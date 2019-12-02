@@ -1,9 +1,6 @@
 ﻿using AddressBook.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
+
 
 namespace AddressBook.Repository.Context
 {
@@ -13,6 +10,6 @@ namespace AddressBook.Repository.Context
 
         public ContactContext(DbContextOptions<ContactContext> options) : base(options) { }
 
-       
+
     }
 }

@@ -1,3 +1,5 @@
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\bin\Debug\netcoreapp3.0\appsettings.json
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\bin\Debug\netcoreapp3.0\AddressBook.API.exe
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\bin\Debug\netcoreapp3.0\AddressBook.API.deps.json
@@ -63,5 +65,3 @@ C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\obj\Debug\netcoreapp3.0\
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\obj\Debug\netcoreapp3.0\AddressBook.API.csproj.CopyComplete
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\obj\Debug\netcoreapp3.0\AddressBook.API.dll
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\obj\Debug\netcoreapp3.0\AddressBook.API.pdb
-C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\bin\Debug\netcoreapp3.0\appsettings.Development.json
-C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\bin\Debug\netcoreapp3.0\appsettings.json

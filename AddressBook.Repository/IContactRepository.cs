@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace AddressBook.Repository
 {
-    public interface IRepository<T> where T : class
+    public interface IContactRepository<T> where T : class
     {
         Task<List<T>> GetAll();
         Task<T> Get(int id);

@@ -2,10 +2,8 @@
 using AddressBook.Entities;
 using AddressBook.Repository.Context;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+
 using System.Threading.Tasks;
 
 namespace AddressBook.Repository
@@ -50,10 +48,10 @@ namespace AddressBook.Repository
             return await _dbContext.Set<Contact>().ToListAsync();
         }
 
-        
-        public async Task<Contact> Update(int id,Contact contact)
+
+        public async Task<Contact> Update(int id, Contact contact)
         {
-            
+
             var savedContact = await _dbContext.Set<Contact>().FindAsync(id);
             contact.Id = (contact.Id == 0) ? savedContact.Id : contact.Id;
 

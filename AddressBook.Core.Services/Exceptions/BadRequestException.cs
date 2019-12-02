@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace AddressBook.Core.Services.Exceptions
 {
     public class BadRequestException : ServiceException

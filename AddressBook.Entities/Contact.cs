@@ -7,7 +7,7 @@ using System.Text;
 
 namespace AddressBook.Entities
 {
-   public class Contact
+    public class Contact
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -29,6 +29,6 @@ namespace AddressBook.Entities
         [Column(TypeName = "varchar(100)")]
         public string Email { get; set; }
 
-      }
     }
+}
 

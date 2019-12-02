@@ -16,7 +16,7 @@ using AddressBook.Core.Common.Helpers;
 
 namespace AddressBook.Core.Services.Implementations
 {
-    public class ContactService : IContactService
+    public class ContactService : AddressBook.Core.Services.IContactService
     {
    
         private List<ContactResponseModel> _contacts;

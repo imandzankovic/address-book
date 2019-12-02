@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace AddressBook.Core.Common.Extensions.Generic
 {
     public static class CheckObjectProperties

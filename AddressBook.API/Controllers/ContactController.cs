@@ -15,21 +15,19 @@ namespace AddressBook.API.Controllers
     public class ContactController : ControllerBase
     {
         private IContactService _contactService;
-   
-
         public ContactController(IContactService contactService)
         {
             this._contactService = contactService;
-           
+
         }
 
-      /*  [HttpGet]
-        public async Task<ActionResult<IEnumerable<ContactResponseModel>>> SearchContacts  ([FromQuery]ContactSearchModel model)
-        {
-            var contacts = await _contactService.SearchContactsAsync(model);
+        /*  [HttpGet]
+          public async Task<ActionResult<IEnumerable<ContactResponseModel>>> SearchContacts  ([FromQuery]ContactSearchModel model)
+          {
+              var contacts = await _contactService.SearchContactsAsync(model);
 
-            return Ok(contacts);
-        }*/
+              return Ok(contacts);
+          }*/
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ContactResponseModel>>> GetAll()
@@ -51,17 +49,17 @@ namespace AddressBook.API.Controllers
         [HttpPost]
         public async Task<ActionResult<ContactResponseModel>> Post([FromBody] ContactRequestModel contact)
         {
-           return await _contactService.AddContactAsync(contact);
+            return await _contactService.AddContactAsync(contact);
         }
 
 
         [HttpPut("{id}")]
         public async Task<ActionResult<ContactResponseModel>> Update(int id, [FromBody]  ContactRequestModel contact)
         {
-            return await _contactService.UpdateContactAsync(id,contact);
+            return await _contactService.UpdateContactAsync(id, contact);
         }
 
-        
+
         [HttpDelete("{id}")]
         public async Task<ActionResult<ContactResponseModel>> Delete(int id)
         {
