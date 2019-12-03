@@ -3,6 +3,7 @@ using AddressBook.Core.Services.Implementations;
 using AddressBook.Repository;
 using AddressBook.Repository.Context;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -26,6 +27,11 @@ namespace AddressBook.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
+            });
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddControllers();
 
@@ -44,6 +50,7 @@ namespace AddressBook.API
 
             services.AddScoped<ContactRepository>();
             services.AddScoped<IContactService, ContactService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,22 +60,20 @@ namespace AddressBook.API
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors(options => options.AllowAnyOrigin());
             app.Use(async (context, next) =>
             {
                 await next();
 
-                if(context.Response.StatusCode ==404 && !Path.HasExtension(context.Request.Path.Value))
+                if (context.Response.StatusCode == 404 && !Path.HasExtension(context.Request.Path.Value))
                 {
                     context.Request.Path = "/index.html";
                     await next();
                 }
             });
-            //app.UseHttpsRedirection();
+
             app.UseDefaultFiles();
             app.UseStaticFiles();
-            
-
             app.UseRouting();
 
             app.UseAuthorization();

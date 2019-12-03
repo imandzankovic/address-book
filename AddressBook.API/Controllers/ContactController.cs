@@ -6,6 +6,7 @@ using AddressBook.Core.Services;
 using AddressBook.Models.Request.Contact;
 using AddressBook.Models.Response.Contact;
 using AddressBook.Models.Search.Contact;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AddressBook.API.Controllers

@@ -57,11 +57,11 @@ C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\bin\Debug\netcoreapp3.0\
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\bin\Debug\netcoreapp3.0\AddressBook.Entities.pdb
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\bin\Debug\netcoreapp3.0\AddressBook.Repository.pdb
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\obj\Debug\netcoreapp3.0\AddressBook.API.csprojAssemblyReference.cache
-C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\obj\Debug\netcoreapp3.0\AddressBook.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\obj\Debug\netcoreapp3.0\AddressBook.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\obj\Debug\netcoreapp3.0\AddressBook.API.AssemblyInfoInputs.cache
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\obj\Debug\netcoreapp3.0\AddressBook.API.AssemblyInfo.cs
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\obj\Debug\netcoreapp3.0\AddressBook.API.RazorTargetAssemblyInfo.cache
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\obj\Debug\netcoreapp3.0\AddressBook.API.csproj.CopyComplete
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\obj\Debug\netcoreapp3.0\AddressBook.API.dll
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\obj\Debug\netcoreapp3.0\AddressBook.API.pdb
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\obj\Debug\netcoreapp3.0\AddressBook.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Iman\Desktop\try2\address-book\AddressBook.API\obj\Debug\netcoreapp3.0\AddressBook.API.MvcApplicationPartsAssemblyInfo.cache
