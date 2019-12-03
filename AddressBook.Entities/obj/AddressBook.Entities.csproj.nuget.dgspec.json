@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {}
+    "C:\\Users\\Iman\\Desktop\\samo\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
+    "C:\\Users\\Iman\\Desktop\\samo\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\samo\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj",
         "projectName": "AddressBook.Entities",
-        "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj",
+        "projectPath": "C:\\Users\\Iman\\Desktop\\samo\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj",
         "packagesPath": "C:\\Users\\Iman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\obj\\",
+        "outputPath": "C:\\Users\\Iman\\Desktop\\samo\\address-book\\AddressBook.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

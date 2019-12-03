@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Ng\\AddressBook.Ng.csproj",
+      "projectUniqueName": "C:\\Users\\Iman\\Desktop\\samo\\address-book\\AddressBook.Ng\\AddressBook.Ng.csproj",
       "projectName": "AddressBook.Ng",
-      "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Ng\\AddressBook.Ng.csproj",
+      "projectPath": "C:\\Users\\Iman\\Desktop\\samo\\address-book\\AddressBook.Ng\\AddressBook.Ng.csproj",
       "packagesPath": "C:\\Users\\Iman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Ng\\obj\\",
+      "outputPath": "C:\\Users\\Iman\\Desktop\\samo\\address-book\\AddressBook.Ng\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

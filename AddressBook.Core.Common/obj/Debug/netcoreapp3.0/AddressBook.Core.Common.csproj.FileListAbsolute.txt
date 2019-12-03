@@ -11,3 +11,16 @@ C:\Users\Iman\Desktop\try2\address-book\AddressBook.Core.Common\obj\Debug\netcor
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.Core.Common\obj\Debug\netcoreapp3.0\AddressBook.Core.Common.csproj.CopyComplete
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.Core.Common\obj\Debug\netcoreapp3.0\AddressBook.Core.Common.dll
 C:\Users\Iman\Desktop\try2\address-book\AddressBook.Core.Common\obj\Debug\netcoreapp3.0\AddressBook.Core.Common.pdb
+C:\Users\Iman\Desktop\samo\address-book\AddressBook.Core.Common\bin\Debug\netcoreapp3.0\AddressBook.Core.Common.deps.json
+C:\Users\Iman\Desktop\samo\address-book\AddressBook.Core.Common\bin\Debug\netcoreapp3.0\AddressBook.Core.Common.dll
+C:\Users\Iman\Desktop\samo\address-book\AddressBook.Core.Common\bin\Debug\netcoreapp3.0\AddressBook.Core.Common.pdb
+C:\Users\Iman\Desktop\samo\address-book\AddressBook.Core.Common\bin\Debug\netcoreapp3.0\AddressBook.Entities.dll
+C:\Users\Iman\Desktop\samo\address-book\AddressBook.Core.Common\bin\Debug\netcoreapp3.0\AddressBook.Models.dll
+C:\Users\Iman\Desktop\samo\address-book\AddressBook.Core.Common\bin\Debug\netcoreapp3.0\AddressBook.Entities.pdb
+C:\Users\Iman\Desktop\samo\address-book\AddressBook.Core.Common\bin\Debug\netcoreapp3.0\AddressBook.Models.pdb
+C:\Users\Iman\Desktop\samo\address-book\AddressBook.Core.Common\obj\Debug\netcoreapp3.0\AddressBook.Core.Common.csprojAssemblyReference.cache
+C:\Users\Iman\Desktop\samo\address-book\AddressBook.Core.Common\obj\Debug\netcoreapp3.0\AddressBook.Core.Common.AssemblyInfoInputs.cache
+C:\Users\Iman\Desktop\samo\address-book\AddressBook.Core.Common\obj\Debug\netcoreapp3.0\AddressBook.Core.Common.AssemblyInfo.cs
+C:\Users\Iman\Desktop\samo\address-book\AddressBook.Core.Common\obj\Debug\netcoreapp3.0\AddressBook.Core.Common.csproj.CopyComplete
+C:\Users\Iman\Desktop\samo\address-book\AddressBook.Core.Common\obj\Debug\netcoreapp3.0\AddressBook.Core.Common.dll
+C:\Users\Iman\Desktop\samo\address-book\AddressBook.Core.Common\obj\Debug\netcoreapp3.0\AddressBook.Core.Common.pdb
