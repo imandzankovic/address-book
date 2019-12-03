@@ -1,21 +1,22 @@
-<div class="card">
-    <div class="card-header">
-      {{pageTitle}}
-    </div>
-    <div class="card-body">
-      <div class="container-fluid">
-        <div class="text-center">
-          <!-- <img src="./assets/images/images.png"
-               class="img-responsive center-block"
-               style="max-height:300px;padding-bottom:50px" /> -->
-        </div>
-  
-        <div class="text-center">Developed by:</div>
-        <div class="text-center">
-          <h3>Mariposa Dev</h3>
-        </div>
-  
-       
-      </div>
-    </div>
-  </div>
+<div class="container">
+  <mat-card>
+    <mat-card-title>
+      {{ pageTitle }}
+    </mat-card-title>
+
+    <mat-card-content>
+      Go to Contacts:
+
+      <mat-list-item>
+        <mat-icon matListIcon>folder</mat-icon
+        ><a matLine routerLinkActive="active" [routerLink]="['/contacts']"
+          >Contacts</a
+        >
+      </mat-list-item>
+    </mat-card-content>
+
+    <mat-card-footer>
+      2019
+    </mat-card-footer>
+  </mat-card>
+</div>
