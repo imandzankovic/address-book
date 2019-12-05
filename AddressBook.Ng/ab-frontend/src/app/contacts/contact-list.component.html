@@ -1,7 +1,7 @@
 <div class="container">
   <mat-card>
-    <mat-list *ngFor="let contact of contacts">
-      <mat-list-item>
+    <mat-selection-list *ngFor="let contact of contacts">
+      <mat-list-option checkboxPosition="before" (click)="contactClicked(contact)">
         <i class="material-icons">
           face
         </i>
@@ -10,9 +10,9 @@
           <span> {{ contact.lastName }} </span>
           <span class="demo-2"> -- {{ contact.phone }} </span>
         </p>
-      </mat-list-item>
+      </mat-list-option>
       <mat-divider></mat-divider>
-    </mat-list>
+    </mat-selection-list>
   </mat-card>
   <br>
   <!-- <button mat-flat-button color="primary">Add</button> -->

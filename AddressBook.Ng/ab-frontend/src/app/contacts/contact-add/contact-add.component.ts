@@ -1,21 +1,21 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, Optional, Inject } from "@angular/core";
 import {
   FormBuilder,
   FormGroup,
-  FormControl,
   Validators
 } from "@angular/forms";
-import { MatDialog } from "@angular/material/dialog";
+import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from "@angular/material/dialog";
 import { ContactDiscardComponent } from "../contact-discard/contact-discard.component";
 import { Contact } from "../contact";
 import { ContactService } from "../contact.service";
+import { ContactDetailComponent } from '../contact-detail/contact-detail.component';
 
 @Component({
-  selector: "app-contact-edit",
-  templateUrl: "./contact-edit.component.html",
-  styleUrls: ["./contact-edit.component.scss"]
+  selector: "app-contact-add",
+  templateUrl: "./contact-add.component.html",
+  styleUrls: ["./contact-add.component.scss"]
 })
-export class ContactEditComponent implements OnInit {
+export class ContactAddComponent implements OnInit {
   public breakpoint: number; // Breakpoint observer code
   public addContactForm: FormGroup;
   contact = new Contact();
@@ -25,10 +25,16 @@ export class ContactEditComponent implements OnInit {
   constructor(
     private fb: FormBuilder,
     public dialog: MatDialog,
-    private contactService: ContactService
-  ) {}
+    private contactService: ContactService,
+    public dialogRef: MatDialogRef<ContactDetailComponent>,
+    @Optional() @Inject(MAT_DIALOG_DATA) public data: any
+  ) {
+   
+    this.contact=data;
+  }
 
   public ngOnInit(): void {
+   
     this.addContactForm = this.fb.group({
       IdProof: null,
       firstname: [

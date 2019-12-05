@@ -3,7 +3,7 @@ import { CommonModule } from "@angular/common";
 import { ContactDetailComponent } from "./contact-detail/contact-detail.component";
 import { RouterModule } from "@angular/router";
 import { ContactListComponent } from "./contact-list.component";
-import { ContactEditComponent } from './contact-edit/contact-edit.component';
+import { ContactAddComponent } from './contact-add/contact-add.component';
 import { ContactDiscardComponent } from './contact-discard/contact-discard.component';
 import { AngularMaterialModule } from '../material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -13,7 +13,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     RouterModule.forChild([
       { path: "contacts", component: ContactListComponent },
       {
-        path: "contacts/:id",
+        path: "contact/:id",
         //canActivate: [ContactDetailGuard],
         component: ContactDetailComponent
       }
@@ -24,6 +24,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule
   ],
 
-  declarations: [ContactDetailComponent, ContactEditComponent, ContactDiscardComponent]
+  declarations: [ContactDetailComponent, ContactAddComponent, ContactDiscardComponent]
 })
 export class ContactModule {}
