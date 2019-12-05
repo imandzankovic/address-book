@@ -41,7 +41,7 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatTooltipModule } from "@angular/material/tooltip";
 import { MatTreeModule } from "@angular/material/tree";
 import { ContactEditComponent } from "./contacts/contact-edit/contact-edit.component";
-import { ContactDeleteComponent } from "./contacts/contact-delete/contact-delete.component";
+import { ContactDiscardComponent } from "./contacts/contact-discard/contact-discard.component";
 import { BrowserModule } from "@angular/platform-browser";
 import { CommonModule } from "@angular/common";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
@@ -99,7 +99,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
     PortalModule,
     ScrollingModule
   ],
-  entryComponents: [ContactEditComponent, ContactDeleteComponent]
+  entryComponents: [ContactEditComponent, ContactDiscardComponent]
 })
 export class AngularMaterialModule {}
 

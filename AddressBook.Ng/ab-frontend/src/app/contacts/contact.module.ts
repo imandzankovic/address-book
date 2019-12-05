@@ -4,7 +4,7 @@ import { ContactDetailComponent } from "./contact-detail/contact-detail.componen
 import { RouterModule } from "@angular/router";
 import { ContactListComponent } from "./contact-list.component";
 import { ContactEditComponent } from './contact-edit/contact-edit.component';
-import { ContactDeleteComponent } from './contact-delete/contact-delete.component';
+import { ContactDiscardComponent } from './contact-discard/contact-discard.component';
 import { AngularMaterialModule } from '../material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
@@ -24,6 +24,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule
   ],
 
-  declarations: [ContactDetailComponent, ContactEditComponent, ContactDeleteComponent]
+  declarations: [ContactDetailComponent, ContactEditComponent, ContactDiscardComponent]
 })
 export class ContactModule {}
