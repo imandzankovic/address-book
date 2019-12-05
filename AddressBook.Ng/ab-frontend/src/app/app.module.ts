@@ -9,6 +9,9 @@ import { ContactListComponent } from './contacts/contact-list.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
 import { AngularMaterialModule } from './material.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -16,13 +19,14 @@ import { AngularMaterialModule } from './material.module';
     WelcomeComponent,
     PageNotFoundComponent,
     ContactListComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    AngularMaterialModule
+    AngularMaterialModule 
   ],
   providers: [],
   bootstrap: [AppComponent],

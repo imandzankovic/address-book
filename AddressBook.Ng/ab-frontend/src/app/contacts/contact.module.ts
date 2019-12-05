@@ -3,6 +3,10 @@ import { CommonModule } from "@angular/common";
 import { ContactDetailComponent } from "./contact-detail/contact-detail.component";
 import { RouterModule } from "@angular/router";
 import { ContactListComponent } from "./contact-list.component";
+import { ContactEditComponent } from './contact-edit/contact-edit.component';
+import { ContactDeleteComponent } from './contact-delete/contact-delete.component';
+import { AngularMaterialModule } from '../material.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
@@ -14,9 +18,12 @@ import { ContactListComponent } from "./contact-list.component";
         component: ContactDetailComponent
       }
     ]),
-    CommonModule
+    CommonModule,
+    AngularMaterialModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
 
-  declarations: [ContactDetailComponent]
+  declarations: [ContactDetailComponent, ContactEditComponent, ContactDeleteComponent]
 })
 export class ContactModule {}
