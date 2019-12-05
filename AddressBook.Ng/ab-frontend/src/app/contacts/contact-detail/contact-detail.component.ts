@@ -17,7 +17,6 @@ export class ContactDetailComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private contactService: ContactService,
-    private router: Router,
     public dialog: MatDialog,
     
   ) {}

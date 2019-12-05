@@ -1,14 +1,15 @@
 import { Component, OnInit, Optional, Inject } from "@angular/core";
+import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import {
-  FormBuilder,
-  FormGroup,
-  Validators
-} from "@angular/forms";
-import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from "@angular/material/dialog";
+  MatDialog,
+  MatDialogRef,
+  MAT_DIALOG_DATA
+} from "@angular/material/dialog";
 import { ContactDiscardComponent } from "../contact-discard/contact-discard.component";
 import { Contact } from "../contact";
 import { ContactService } from "../contact.service";
-import { ContactDetailComponent } from '../contact-detail/contact-detail.component';
+import { ContactDetailComponent } from "../contact-detail/contact-detail.component";
+import { Router } from "@angular/router";
 
 @Component({
   selector: "app-contact-add",
@@ -25,33 +26,33 @@ export class ContactAddComponent implements OnInit {
   constructor(
     private fb: FormBuilder,
     public dialog: MatDialog,
+    private router: Router,
     private contactService: ContactService,
     public dialogRef: MatDialogRef<ContactDetailComponent>,
     @Optional() @Inject(MAT_DIALOG_DATA) public data: any
   ) {
-   
-    this.contact=data;
+    this.contact = data;
   }
 
   public ngOnInit(): void {
-   
+    console.log(this.contact);
     this.addContactForm = this.fb.group({
       IdProof: null,
       firstname: [
-        "",
+        this.contact != null ? this.contact.firstName : " ",
         [Validators.required, Validators.pattern("[a-zA-Z]+([a-zA-Z ]+)*")]
       ],
       lastname: [
-        "",
+        this.contact != null ? this.contact.lastName : " ",
         [Validators.required, Validators.pattern("[a-zA-Z]+([a-zA-Z ]+)*")]
       ],
       phone: [
-        "",
+        this.contact != null ? this.contact.phone : " ",
         [Validators.required, Validators.pattern(/^-?(0|[1-9]\d*)?$/)]
       ],
-      email: [""]
+      email: [this.contact != null ? this.contact.email : " "]
     });
-    this.breakpoint = window.innerWidth <= 600 ? 1 : 2; // Breakpoint observer code
+    this.breakpoint = window.innerWidth <= 600 ? 1 : 2; // Breakpoint observer codes
   }
 
   public onAddContact(): void {
@@ -60,6 +61,7 @@ export class ContactAddComponent implements OnInit {
   }
 
   saveContact(): void {
+    console.log("netipichno");
     console.log(this.addContactForm.value);
 
     if (this.addContactForm.valid) {
@@ -87,6 +89,7 @@ export class ContactAddComponent implements OnInit {
 
   onSaveComplete(): void {
     this.dialog.closeAll();
+    this.router.navigate(["/contacts"]);
   }
 
   openDialog(): void {

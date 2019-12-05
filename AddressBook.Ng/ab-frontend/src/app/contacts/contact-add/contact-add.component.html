@@ -16,7 +16,7 @@
               <input
                 matInput
                 placeholder="First Name"
-                value="{{ fname }}"
+                [value]="addContactForm.controls.firstname.value"
                 formControlName="firstname"
                 required
               />
@@ -38,8 +38,8 @@
             <mat-form-field class="example-full-width">
               <input
                 matInput
-                placeholder="Last Name"
-                value="{{ lname }}"
+                placeholder="Last Name"              
+                [value]="addContactForm.controls.lastname.value"
                 formControlName="lastname"
                 required
               />
@@ -64,7 +64,7 @@
                 matInput
                 type="number"
                 placeholder="Phone"
-                value="{{ phone }}"
+                [value]="addContactForm.controls.phone.value"
                 formControlName="phone"
                 required
               />
@@ -87,19 +87,9 @@
               <input
                 matInput
                 placeholder="Email address"
-                formControlName="email"
-                required
+                [value]="addContactForm.controls.email.value"
+                formControlName="email" 
               />
-              <mat-error
-                *ngIf="addContactForm.controls.email.hasError('required')"
-              >
-                Please enter email id
-              </mat-error>
-              <mat-error
-                *ngIf="addContactForm.controls.email.hasError('email')"
-              >
-                Please enter valid email id
-              </mat-error>
             </mat-form-field>
           </div>
         </mat-grid-tile>
