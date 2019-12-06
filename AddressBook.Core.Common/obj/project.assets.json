@@ -49,11 +49,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj",
+      "projectUniqueName": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj",
       "projectName": "AddressBook.Core.Common",
-      "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj",
+      "projectPath": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj",
       "packagesPath": "C:\\Users\\Iman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Core.Common\\obj\\",
+      "outputPath": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Core.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -72,11 +72,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
-              "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj"
+            "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
+              "projectPath": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj"
             },
-            "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Models\\AddressBook.Models.csproj": {
-              "projectPath": "C:\\Users\\Iman\\Desktop\\try2\\address-book\\AddressBook.Models\\AddressBook.Models.csproj"
+            "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Models\\AddressBook.Models.csproj": {
+              "projectPath": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Models\\AddressBook.Models.csproj"
             }
           }
         }
