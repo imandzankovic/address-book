@@ -4,7 +4,8 @@ import { ContactService } from "../contact.service";
 import { Contact } from "../contact";
 import { MatDialog } from '@angular/material/dialog';
 import { ContactAddComponent } from '../contact-add/contact-add.component';
-
+import { RouterModule } from '@angular/router';
+import { ContactDiscardComponent } from '../contact-discard/contact-discard.component';
 @Component({
   selector: "app-contact-detail",
   templateUrl: "./contact-detail.component.html",
@@ -18,6 +19,7 @@ export class ContactDetailComponent implements OnInit {
     private route: ActivatedRoute,
     private contactService: ContactService,
     public dialog: MatDialog,
+    private router:Router
     
   ) {}
 
@@ -30,6 +32,16 @@ export class ContactDetailComponent implements OnInit {
    
  
   }
+
+  openDiscardDialog() : void{
+    const dialogRef = this.dialog.open(ContactDiscardComponent, {
+      width: "340px",
+      disableClose: true,
+      data:this.contact.id
+    });
+
+  } 
+  
 
   ngOnInit() {
     this.id = this.route.snapshot.paramMap.get("id");

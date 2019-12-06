@@ -1,24 +1,23 @@
+<div class="addContact">
+  <button class="addButton" mat-fab color="primary" (click)="openDialog()">
+    <i class="material-icons">add</i>
+  </button>
+</div>
 <div class="container">
   <mat-card>
     <mat-selection-list *ngFor="let contact of contacts">
-      <mat-list-option checkboxPosition="before" (click)="contactClicked(contact)">
-        <i class="material-icons">
-          face
-        </i>
-        <h3 matLine>{{ contact.firstName }}</h3>
+      <mat-list-option
+        checkboxPosition="before"
+        (click)="contactClicked(contact)"
+      >
         <p matLine>
-          <span> {{ contact.lastName }} </span>
-          <span class="demo-2"> -- {{ contact.phone }} </span>
+          <mat-icon class="white-icon">face</mat-icon>
+
+          {{ contact.firstName }}
         </p>
       </mat-list-option>
       <mat-divider></mat-divider>
     </mat-selection-list>
   </mat-card>
-  <br>
-  <!-- <button mat-flat-button color="primary">Add</button> -->
-  <div class="addContact">
-     <button mat-fab color="primary" (click)="openDialog()">Add</button>
-  </div>
- 
-
+  <br />
 </div>

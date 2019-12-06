@@ -1,22 +1,13 @@
 <div class="container">
   <mat-card>
-    <mat-card-title>
-      {{ pageTitle }}
-    </mat-card-title>
+    <mat-card-header>
+     <mat-card-title>
+       <h4 class="title">Manage your contacts!</h4>
+       <button mat-button  routerLinkActive="active" [routerLink]="['/contacts']"
+        ><i class="material-icons">contacts</i> Contacts</button
+      >
+    </mat-card-title> 
+    </mat-card-header>
 
-    <mat-card-content>
-      Go to Contacts:
-
-      <mat-list-item>
-        <mat-icon matListIcon>folder</mat-icon
-        ><a matLine routerLinkActive="active" [routerLink]="['/contacts']"
-          >Contacts</a
-        >
-      </mat-list-item>
-    </mat-card-content>
-
-    <mat-card-footer>
-      2019
-    </mat-card-footer>
   </mat-card>
 </div>

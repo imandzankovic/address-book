@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, ViewChild } from "@angular/core";
 import { ContactService } from "./contact.service";
 import { Contact } from "./contact";
 import { MatDialog } from "@angular/material/dialog";

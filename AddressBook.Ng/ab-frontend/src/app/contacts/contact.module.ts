@@ -3,10 +3,10 @@ import { CommonModule } from "@angular/common";
 import { ContactDetailComponent } from "./contact-detail/contact-detail.component";
 import { RouterModule } from "@angular/router";
 import { ContactListComponent } from "./contact-list.component";
-import { ContactAddComponent } from './contact-add/contact-add.component';
-import { ContactDiscardComponent } from './contact-discard/contact-discard.component';
-import { AngularMaterialModule } from '../material.module';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ContactAddComponent } from "./contact-add/contact-add.component";
+import { ContactDiscardComponent } from "./contact-discard/contact-discard.component";
+import { AngularMaterialModule } from "../material.module";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 
 @NgModule({
   imports: [
@@ -14,7 +14,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
       { path: "contacts", component: ContactListComponent },
       {
         path: "contact/:id",
-        //canActivate: [ContactDetailGuard],
         component: ContactDetailComponent
       }
     ]),
@@ -24,6 +23,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule
   ],
 
-  declarations: [ContactDetailComponent, ContactAddComponent, ContactDiscardComponent]
+  declarations: [
+    ContactDetailComponent,
+    ContactAddComponent,
+    ContactDiscardComponent
+  ]
 })
 export class ContactModule {}
