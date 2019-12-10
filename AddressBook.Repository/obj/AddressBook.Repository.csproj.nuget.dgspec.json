@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj": {}
+    "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj": {
+    "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj",
         "projectName": "AddressBook.Core.Common",
-        "projectPath": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj",
+        "projectPath": "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj",
         "packagesPath": "C:\\Users\\Iman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Core.Common\\obj\\",
+        "outputPath": "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Core.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
-                "projectPath": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj"
+              "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
+                "projectPath": "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj"
               },
-              "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Models\\AddressBook.Models.csproj": {
-                "projectPath": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Models\\AddressBook.Models.csproj"
+              "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Models\\AddressBook.Models.csproj": {
+                "projectPath": "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Models\\AddressBook.Models.csproj"
               }
             }
           }
@@ -47,6 +47,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -66,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
+    "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj",
         "projectName": "AddressBook.Entities",
-        "projectPath": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj",
+        "projectPath": "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj",
         "packagesPath": "C:\\Users\\Iman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Entities\\obj\\",
+        "outputPath": "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -121,14 +127,14 @@
         }
       }
     },
-    "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Models\\AddressBook.Models.csproj": {
+    "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Models\\AddressBook.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Models\\AddressBook.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Models\\AddressBook.Models.csproj",
         "projectName": "AddressBook.Models",
-        "projectPath": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Models\\AddressBook.Models.csproj",
+        "projectPath": "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Models\\AddressBook.Models.csproj",
         "packagesPath": "C:\\Users\\Iman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Models\\obj\\",
+        "outputPath": "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -176,14 +182,14 @@
         }
       }
     },
-    "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj": {
+    "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj",
         "projectName": "AddressBook.Repository",
-        "projectPath": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj",
+        "projectPath": "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Repository\\AddressBook.Repository.csproj",
         "packagesPath": "C:\\Users\\Iman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Repository\\obj\\",
+        "outputPath": "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -202,11 +208,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj": {
-                "projectPath": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj"
+              "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj": {
+                "projectPath": "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Core.Common\\AddressBook.Core.Common.csproj"
               },
-              "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
-                "projectPath": "C:\\Users\\Iman\\Desktop\\opet\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj"
+              "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj": {
+                "projectPath": "C:\\Users\\Iman\\Desktop\\New\\address-book\\AddressBook.Entities\\AddressBook.Entities.csproj"
               }
             }
           }

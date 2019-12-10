@@ -163,6 +163,14 @@
           }
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
       "System.Collections.Immutable/1.6.0": {},
       "System.ComponentModel.Annotations/4.6.0": {},
       "System.Diagnostics.DiagnosticSource/4.6.0": {},
@@ -170,7 +178,8 @@
       "AddressBook.Core.Common/1.0.0": {
         "dependencies": {
           "AddressBook.Entities": "1.0.0",
-          "AddressBook.Models": "1.0.0"
+          "AddressBook.Models": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "AddressBook.Core.Common.dll": {}
@@ -291,6 +300,13 @@
       "sha512": "sha512-9RIADJEXOk3R2rQunxzFxQEazaD3FNOqCNed+yVf/U0HDbbkQcwsWOHrju1YwdQwtewt/0WRUYxRDf3USxezdA==",
       "path": "microsoft.extensions.primitives/3.0.1",
       "hashPath": "microsoft.extensions.primitives.3.0.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
     "System.Collections.Immutable/1.6.0": {
       "type": "package",

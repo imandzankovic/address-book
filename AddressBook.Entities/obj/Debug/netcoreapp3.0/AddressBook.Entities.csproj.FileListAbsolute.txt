@@ -14,3 +14,11 @@ C:\Users\Iman\Desktop\opet\address-book\AddressBook.Entities\obj\Debug\netcoreap
 C:\Users\Iman\Desktop\opet\address-book\AddressBook.Entities\obj\Debug\netcoreapp3.0\AddressBook.Entities.AssemblyInfo.cs
 C:\Users\Iman\Desktop\opet\address-book\AddressBook.Entities\obj\Debug\netcoreapp3.0\AddressBook.Entities.dll
 C:\Users\Iman\Desktop\opet\address-book\AddressBook.Entities\obj\Debug\netcoreapp3.0\AddressBook.Entities.pdb
+C:\Users\Iman\Desktop\New\address-book\AddressBook.Entities\bin\Debug\netcoreapp3.0\AddressBook.Entities.deps.json
+C:\Users\Iman\Desktop\New\address-book\AddressBook.Entities\bin\Debug\netcoreapp3.0\AddressBook.Entities.dll
+C:\Users\Iman\Desktop\New\address-book\AddressBook.Entities\bin\Debug\netcoreapp3.0\AddressBook.Entities.pdb
+C:\Users\Iman\Desktop\New\address-book\AddressBook.Entities\obj\Debug\netcoreapp3.0\AddressBook.Entities.csprojAssemblyReference.cache
+C:\Users\Iman\Desktop\New\address-book\AddressBook.Entities\obj\Debug\netcoreapp3.0\AddressBook.Entities.AssemblyInfoInputs.cache
+C:\Users\Iman\Desktop\New\address-book\AddressBook.Entities\obj\Debug\netcoreapp3.0\AddressBook.Entities.AssemblyInfo.cs
+C:\Users\Iman\Desktop\New\address-book\AddressBook.Entities\obj\Debug\netcoreapp3.0\AddressBook.Entities.dll
+C:\Users\Iman\Desktop\New\address-book\AddressBook.Entities\obj\Debug\netcoreapp3.0\AddressBook.Entities.pdb
